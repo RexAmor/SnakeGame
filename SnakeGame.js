@@ -5,7 +5,7 @@ window.onload = function () {
 	var vx = -1, vy = 0;
 	var snake = []; 
 	var prey = newPrey();
-	for (var i = 0; i < 20; i++) {
+	for (var i = 0; i < 5; i++) {
 		snake[i]=[x+4-i, y];
 	}
 	setInterval(frame, 1000/10);
